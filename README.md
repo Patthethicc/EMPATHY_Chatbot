@@ -31,3 +31,8 @@ trainer.train([
 #Possible vice versa as well
 ```
 2. Run "bot.py" and then converse the bot with the full sentences or phrases inside the List to guide the bot
+
+##Documentation of chatterbot
+```bash
+https://docs.chatterbot.us/tutorial
+```
