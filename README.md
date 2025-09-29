@@ -15,3 +15,19 @@ python -m spacy download en_core_web_sm
 ```bash
 python -u "bot.py"
 ```
+Note: to exit the bot, do ctrl + c or ctrl + d
+
+## How to train the bot?
+1.Add a conversation here inside trainer.train
+
+Example:
+```bash
+trainer.train([
+    "Hi Rainier the bot, how are you?", #<-- User Input
+    "I'm doing good, how about you?", #<--Bot response
+    "Doing neat as well, have a great day !", #<-- User Input
+    "Alright, have a good one !" #<--Bot response
+])
+#Possible vice versa as well
+```
+2. Run "bot.py" and then converse the bot with the full sentences or phrases inside the List to guide the bot
